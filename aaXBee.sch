@@ -3573,46 +3573,6 @@ Also for NR4010, NRS4010, NR4012, NRS4012, NR4018.</description>
 <wire x1="2.5" y1="-1" x2="1" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-1" x2="-1" y2="-2.5" width="0.127" layer="21"/>
 </package>
-<package name="PROTO-12">
-<pad name="3" x="-8.89" y="0" drill="1" diameter="1.778"/>
-<pad name="4" x="-6.35" y="0" drill="1" diameter="1.778"/>
-<pad name="5" x="-3.81" y="0" drill="1" diameter="1.778"/>
-<pad name="2" x="-11.43" y="0" drill="1" diameter="1.778"/>
-<pad name="1" x="-13.97" y="0" drill="1" diameter="1.778"/>
-<rectangle x1="-15.24" y1="-1.27" x2="15.24" y2="1.27" layer="30"/>
-<wire x1="-15.24" y1="-1.27" x2="-15.24" y2="1.27" width="0.3048" layer="21"/>
-<pad name="8" x="3.81" y="0" drill="1" diameter="1.778"/>
-<pad name="9" x="6.35" y="0" drill="1" diameter="1.778"/>
-<pad name="10" x="8.89" y="0" drill="1" diameter="1.778"/>
-<pad name="7" x="1.27" y="0" drill="1" diameter="1.778"/>
-<pad name="6" x="-1.27" y="0" drill="1" diameter="1.778"/>
-<wire x1="-15.24" y1="1.27" x2="15.24" y2="1.27" width="0.3048" layer="21"/>
-<wire x1="15.24" y1="1.27" x2="15.24" y2="-1.27" width="0.3048" layer="21"/>
-<wire x1="15.24" y1="-1.27" x2="-15.24" y2="-1.27" width="0.3048" layer="21"/>
-<pad name="11" x="11.43" y="0" drill="1" diameter="1.778"/>
-<pad name="12" x="13.97" y="0" drill="1" diameter="1.778"/>
-<rectangle x1="-15.24" y1="-1.27" x2="15.24" y2="1.27" layer="42"/>
-<rectangle x1="-15.24" y1="-1.27" x2="15.24" y2="1.27" layer="41"/>
-</package>
-<package name="PROTO-12-NR">
-<description>Same as PROTO-12 package but no tRestrict, bRestrict, bStop.</description>
-<pad name="3" x="-8.89" y="0" drill="1" diameter="1.778"/>
-<pad name="4" x="-6.35" y="0" drill="1" diameter="1.778"/>
-<pad name="5" x="-3.81" y="0" drill="1" diameter="1.778"/>
-<pad name="2" x="-11.43" y="0" drill="1" diameter="1.778"/>
-<pad name="1" x="-13.97" y="0" drill="1" diameter="1.778"/>
-<wire x1="-15.24" y1="-1.27" x2="-15.24" y2="1.27" width="0.3048" layer="21"/>
-<pad name="8" x="3.81" y="0" drill="1" diameter="1.778"/>
-<pad name="9" x="6.35" y="0" drill="1" diameter="1.778"/>
-<pad name="10" x="8.89" y="0" drill="1" diameter="1.778"/>
-<pad name="7" x="1.27" y="0" drill="1" diameter="1.778"/>
-<pad name="6" x="-1.27" y="0" drill="1" diameter="1.778"/>
-<wire x1="-15.24" y1="1.27" x2="15.24" y2="1.27" width="0.3048" layer="21"/>
-<wire x1="15.24" y1="1.27" x2="15.24" y2="-1.27" width="0.3048" layer="21"/>
-<wire x1="15.24" y1="-1.27" x2="-15.24" y2="-1.27" width="0.3048" layer="21"/>
-<pad name="11" x="11.43" y="0" drill="1" diameter="1.778"/>
-<pad name="12" x="13.97" y="0" drill="1" diameter="1.778"/>
-</package>
 <package name="SOT23-3">
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -5076,6 +5036,74 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-4.69" y1="3.8" x2="-4.2" y2="5.32" layer="51"/>
 <circle x="-3.81" y="-1.905" radius="0.508" width="0.28448125" layer="21"/>
 </package>
+<package name="PROTO-16">
+<pad name="3" x="-13.97" y="0" drill="1" diameter="1.778"/>
+<pad name="4" x="-11.43" y="0" drill="1" diameter="1.778"/>
+<pad name="5" x="-8.89" y="0" drill="1" diameter="1.778"/>
+<pad name="2" x="-16.51" y="0" drill="1" diameter="1.778"/>
+<pad name="1" x="-19.05" y="0" drill="1" diameter="1.778"/>
+<rectangle x1="-20.32" y1="-1.27" x2="20.32" y2="1.27" layer="30"/>
+<wire x1="-20.32" y1="-1.27" x2="-20.32" y2="1.27" width="0.3048" layer="21"/>
+<pad name="8" x="-1.27" y="0" drill="1" diameter="1.778"/>
+<pad name="9" x="1.27" y="0" drill="1" diameter="1.778"/>
+<pad name="10" x="3.81" y="0" drill="1" diameter="1.778"/>
+<pad name="7" x="-3.81" y="0" drill="1" diameter="1.778"/>
+<pad name="6" x="-6.35" y="0" drill="1" diameter="1.778"/>
+<wire x1="-20.32" y1="1.27" x2="20.32" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="20.32" y1="1.27" x2="20.32" y2="-1.27" width="0.3048" layer="21"/>
+<wire x1="20.32" y1="-1.27" x2="-20.32" y2="-1.27" width="0.3048" layer="21"/>
+<pad name="11" x="6.35" y="0" drill="1" diameter="1.778"/>
+<pad name="12" x="8.89" y="0" drill="1" diameter="1.778"/>
+<rectangle x1="-20.32" y1="-1.27" x2="20.32" y2="1.27" layer="42"/>
+<rectangle x1="-20.32" y1="-1.27" x2="20.32" y2="1.27" layer="41"/>
+<pad name="13" x="11.43" y="0" drill="1" diameter="1.778"/>
+<pad name="14" x="13.97" y="0" drill="1" diameter="1.778"/>
+<pad name="15" x="16.51" y="0" drill="1" diameter="1.778"/>
+<pad name="16" x="19.05" y="0" drill="1" diameter="1.778"/>
+</package>
+<package name="PROTO-14">
+<pad name="3" x="-11.43" y="0" drill="1" diameter="1.778"/>
+<pad name="4" x="-8.89" y="0" drill="1" diameter="1.778"/>
+<pad name="5" x="-6.35" y="0" drill="1" diameter="1.778"/>
+<pad name="2" x="-13.97" y="0" drill="1" diameter="1.778"/>
+<pad name="1" x="-16.51" y="0" drill="1" diameter="1.778"/>
+<rectangle x1="-17.78" y1="-1.27" x2="17.78" y2="1.27" layer="30"/>
+<wire x1="-17.78" y1="-1.27" x2="-17.78" y2="1.27" width="0.3048" layer="21"/>
+<pad name="8" x="1.27" y="0" drill="1" diameter="1.778"/>
+<pad name="9" x="3.81" y="0" drill="1" diameter="1.778"/>
+<pad name="10" x="6.35" y="0" drill="1" diameter="1.778"/>
+<pad name="7" x="-1.27" y="0" drill="1" diameter="1.778"/>
+<pad name="6" x="-3.81" y="0" drill="1" diameter="1.778"/>
+<wire x1="-17.78" y1="1.27" x2="17.78" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="17.78" y1="1.27" x2="17.78" y2="-1.27" width="0.3048" layer="21"/>
+<wire x1="17.78" y1="-1.27" x2="-17.78" y2="-1.27" width="0.3048" layer="21"/>
+<pad name="11" x="8.89" y="0" drill="1" diameter="1.778"/>
+<pad name="12" x="11.43" y="0" drill="1" diameter="1.778"/>
+<rectangle x1="-17.78" y1="-1.27" x2="17.78" y2="1.27" layer="42"/>
+<rectangle x1="-17.78" y1="-1.27" x2="17.78" y2="1.27" layer="41"/>
+<pad name="13" x="13.97" y="0" drill="1" diameter="1.778"/>
+<pad name="14" x="16.51" y="0" drill="1" diameter="1.778"/>
+</package>
+<package name="PROTO-14-NR">
+<pad name="3" x="-11.43" y="0" drill="1" diameter="1.778"/>
+<pad name="4" x="-8.89" y="0" drill="1" diameter="1.778"/>
+<pad name="5" x="-6.35" y="0" drill="1" diameter="1.778"/>
+<pad name="2" x="-13.97" y="0" drill="1" diameter="1.778"/>
+<pad name="1" x="-16.51" y="0" drill="1" diameter="1.778"/>
+<wire x1="-17.78" y1="-1.27" x2="-17.78" y2="1.27" width="0.3048" layer="21"/>
+<pad name="8" x="1.27" y="0" drill="1" diameter="1.778"/>
+<pad name="9" x="3.81" y="0" drill="1" diameter="1.778"/>
+<pad name="10" x="6.35" y="0" drill="1" diameter="1.778"/>
+<pad name="7" x="-1.27" y="0" drill="1" diameter="1.778"/>
+<pad name="6" x="-3.81" y="0" drill="1" diameter="1.778"/>
+<wire x1="-17.78" y1="1.27" x2="17.78" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="17.78" y1="1.27" x2="17.78" y2="-1.27" width="0.3048" layer="21"/>
+<wire x1="17.78" y1="-1.27" x2="-17.78" y2="-1.27" width="0.3048" layer="21"/>
+<pad name="11" x="8.89" y="0" drill="1" diameter="1.778"/>
+<pad name="12" x="11.43" y="0" drill="1" diameter="1.778"/>
+<pad name="13" x="13.97" y="0" drill="1" diameter="1.778"/>
+<pad name="14" x="16.51" y="0" drill="1" diameter="1.778"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TERM-BLOCK-2">
@@ -5182,43 +5210,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-</symbol>
-<symbol name="PROTO-12">
-<circle x="-17.78" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="-12.7" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="-7.62" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="-22.86" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="-27.94" y="0" radius="1.27" width="0.254" layer="94"/>
-<wire x1="-26.416" y1="0" x2="-24.13" y2="0" width="0.4064" layer="94"/>
-<wire x1="-21.59" y1="0" x2="-19.05" y2="0" width="0.4064" layer="94"/>
-<wire x1="-16.51" y1="0" x2="-13.97" y2="0" width="0.4064" layer="94"/>
-<wire x1="-11.176" y1="0" x2="-8.89" y2="0" width="0.4064" layer="94"/>
-<pin name="1" x="-27.94" y="0" visible="off" length="point"/>
-<pin name="5" x="-7.62" y="0" visible="off" length="point"/>
-<pin name="2" x="-22.86" y="0" visible="off" length="point"/>
-<pin name="3" x="-17.78" y="0" visible="off" length="point"/>
-<pin name="4" x="-12.7" y="0" visible="off" length="point"/>
-<circle x="17.78" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="22.86" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="27.94" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="12.7" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="7.62" y="0" radius="1.27" width="0.254" layer="94"/>
-<wire x1="9.144" y1="0" x2="11.43" y2="0" width="0.4064" layer="94"/>
-<wire x1="13.97" y1="0" x2="16.51" y2="0" width="0.4064" layer="94"/>
-<wire x1="19.05" y1="0" x2="21.59" y2="0" width="0.4064" layer="94"/>
-<wire x1="24.384" y1="0" x2="26.67" y2="0" width="0.4064" layer="94"/>
-<pin name="8" x="7.62" y="0" visible="off" length="point"/>
-<pin name="12" x="27.94" y="0" visible="off" length="point"/>
-<pin name="9" x="12.7" y="0" visible="off" length="point"/>
-<pin name="10" x="17.78" y="0" visible="off" length="point"/>
-<pin name="11" x="22.86" y="0" visible="off" length="point"/>
-<circle x="-2.54" y="0" radius="1.27" width="0.254" layer="94"/>
-<wire x1="-6.096" y1="0" x2="-3.81" y2="0" width="0.4064" layer="94"/>
-<pin name="6" x="-2.54" y="0" visible="off" length="point"/>
-<circle x="2.54" y="0" radius="1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="0" x2="1.27" y2="0" width="0.4064" layer="94"/>
-<pin name="7" x="2.54" y="0" visible="off" length="point"/>
-<wire x1="4.064" y1="0" x2="6.35" y2="0" width="0.4064" layer="94"/>
 </symbol>
 <symbol name="MOSFET-NCHANNEL">
 <wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
@@ -5438,6 +5429,98 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <wire x1="-10.16" y1="-15.24" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
 <text x="-10.16" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PROTO-16">
+<circle x="-27.94" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-22.86" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-17.78" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-33.02" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-38.1" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-36.576" y1="0" x2="-34.29" y2="0" width="0.4064" layer="94"/>
+<wire x1="-31.75" y1="0" x2="-29.21" y2="0" width="0.4064" layer="94"/>
+<wire x1="-26.67" y1="0" x2="-24.13" y2="0" width="0.4064" layer="94"/>
+<wire x1="-21.336" y1="0" x2="-19.05" y2="0" width="0.4064" layer="94"/>
+<pin name="1" x="-38.1" y="0" visible="off" length="point"/>
+<pin name="5" x="-17.78" y="0" visible="off" length="point"/>
+<pin name="2" x="-33.02" y="0" visible="off" length="point"/>
+<pin name="3" x="-27.94" y="0" visible="off" length="point"/>
+<pin name="4" x="-22.86" y="0" visible="off" length="point"/>
+<circle x="7.62" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="12.7" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="17.78" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="1.27" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="0" x2="6.35" y2="0" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="0" x2="11.43" y2="0" width="0.4064" layer="94"/>
+<wire x1="14.224" y1="0" x2="16.51" y2="0" width="0.4064" layer="94"/>
+<pin name="8" x="-2.54" y="0" visible="off" length="point"/>
+<pin name="12" x="17.78" y="0" visible="off" length="point"/>
+<pin name="9" x="2.54" y="0" visible="off" length="point"/>
+<pin name="10" x="7.62" y="0" visible="off" length="point"/>
+<pin name="11" x="12.7" y="0" visible="off" length="point"/>
+<circle x="-12.7" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-16.256" y1="0" x2="-13.97" y2="0" width="0.4064" layer="94"/>
+<pin name="6" x="-12.7" y="0" visible="off" length="point"/>
+<circle x="-7.62" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-11.176" y1="0" x2="-8.89" y2="0" width="0.4064" layer="94"/>
+<pin name="7" x="-7.62" y="0" visible="off" length="point"/>
+<wire x1="-6.096" y1="0" x2="-3.81" y2="0" width="0.4064" layer="94"/>
+<pin name="13" x="22.86" y="0" visible="off" length="point"/>
+<pin name="14" x="27.94" y="0" visible="off" length="point"/>
+<pin name="15" x="33.02" y="0" visible="off" length="point"/>
+<pin name="16" x="38.1" y="0" visible="off" length="point"/>
+<circle x="27.94" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="22.86" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="33.02" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="38.1" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="24.384" y1="0" x2="26.67" y2="0" width="0.4064" layer="94"/>
+<wire x1="34.544" y1="0" x2="36.83" y2="0" width="0.4064" layer="94"/>
+<wire x1="19.304" y1="0" x2="21.59" y2="0" width="0.4064" layer="94"/>
+<wire x1="29.464" y1="0" x2="31.75" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="PROTO-14">
+<circle x="-22.86" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-17.78" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-12.7" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-27.94" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="-33.02" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-31.496" y1="0" x2="-29.21" y2="0" width="0.4064" layer="94"/>
+<wire x1="-26.67" y1="0" x2="-24.13" y2="0" width="0.4064" layer="94"/>
+<wire x1="-21.59" y1="0" x2="-19.05" y2="0" width="0.4064" layer="94"/>
+<wire x1="-16.256" y1="0" x2="-13.97" y2="0" width="0.4064" layer="94"/>
+<pin name="1" x="-33.02" y="0" visible="off" length="point"/>
+<pin name="5" x="-12.7" y="0" visible="off" length="point"/>
+<pin name="2" x="-27.94" y="0" visible="off" length="point"/>
+<pin name="3" x="-22.86" y="0" visible="off" length="point"/>
+<pin name="4" x="-17.78" y="0" visible="off" length="point"/>
+<circle x="12.7" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="17.78" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="22.86" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="7.62" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0" x2="6.35" y2="0" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="0" x2="11.43" y2="0" width="0.4064" layer="94"/>
+<wire x1="13.97" y1="0" x2="16.51" y2="0" width="0.4064" layer="94"/>
+<wire x1="19.304" y1="0" x2="21.59" y2="0" width="0.4064" layer="94"/>
+<pin name="8" x="2.54" y="0" visible="off" length="point"/>
+<pin name="12" x="22.86" y="0" visible="off" length="point"/>
+<pin name="9" x="7.62" y="0" visible="off" length="point"/>
+<pin name="10" x="12.7" y="0" visible="off" length="point"/>
+<pin name="11" x="17.78" y="0" visible="off" length="point"/>
+<circle x="-7.62" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-11.176" y1="0" x2="-8.89" y2="0" width="0.4064" layer="94"/>
+<pin name="6" x="-7.62" y="0" visible="off" length="point"/>
+<circle x="-2.54" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-6.096" y1="0" x2="-3.81" y2="0" width="0.4064" layer="94"/>
+<pin name="7" x="-2.54" y="0" visible="off" length="point"/>
+<wire x1="-1.016" y1="0" x2="1.27" y2="0" width="0.4064" layer="94"/>
+<circle x="27.94" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="33.02" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="29.464" y1="0" x2="31.75" y2="0" width="0.4064" layer="94"/>
+<wire x1="24.384" y1="0" x2="26.67" y2="0" width="0.4064" layer="94"/>
+<pin name="13" x="27.94" y="0" visible="off" length="point"/>
+<pin name="14" x="33.02" y="0" visible="off" length="point"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7017,51 +7100,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PROTO-12">
-<gates>
-<gate name="G$1" symbol="PROTO-12" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PROTO" package="PROTO-12">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NR" package="PROTO-12-NR">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOSFET-NCHANNEL" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="MOSFET-NCHANNEL" x="0" y="0"/>
@@ -7757,6 +7795,85 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="G$1" pin="SDA" pad="15"/>
 <connect gate="G$1" pin="VBAT" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PROTO-16" prefix="PR" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PROTO-16" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PROTO-16">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PROTO-14" prefix="PR" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PROTO-14" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PROTO-14">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NR" package="PROTO-14-NR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8812,12 +8929,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+3V3">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -8837,19 +8948,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -35430,7 +35528,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="PR4" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR6" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR7" library="_jc" deviceset="PROTO-10" device=""/>
-<part name="JP1" library="_jc" deviceset="PROTO-12" device="NR"/>
 <part name="PR1" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR5" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR8" library="_jc" deviceset="PROTO-10" device=""/>
@@ -35438,8 +35535,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="PR10" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR11" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR12" library="_jc" deviceset="PROTO-10" device=""/>
-<part name="U$1" library="_jc" deviceset="PROTO-12" device="PROTO" value="PROTO-12PROTO"/>
-<part name="U$2" library="_jc" deviceset="PROTO-12" device="PROTO" value="PROTO-12PROTO"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="Q1" library="_jc" deviceset="MOSFET-NCHANNEL" device="SOT23" value="IRLML6244TR"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
@@ -35504,11 +35599,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="R17" library="_jc" deviceset="R-US_" device="M0805" value="249K"/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
-<part name="SJ3" library="jumper" deviceset="SJ" device="" value="3V3"/>
+<part name="SJ3" library="jumper" deviceset="SJ" device="" value="/5V"/>
 <part name="SJ2" library="jumper" deviceset="SJ2W" device=""/>
 <part name="P+9" library="SparkFun" deviceset="VCC" device=""/>
-<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="PR14" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR15" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR16" library="_jc" deviceset="PROTO-10" device=""/>
@@ -35517,6 +35610,10 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="_jc" deviceset="SPST-NO-MC" device="TACT-6X3.5-SMT"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="SJ4" library="jumper" deviceset="SJ" device="" value="5V"/>
+<part name="PR18" library="_jc" deviceset="PROTO-16" device=""/>
+<part name="PR19" library="_jc" deviceset="PROTO-16" device=""/>
+<part name="PR20" library="_jc" deviceset="PROTO-14" device="NR"/>
 </parts>
 <sheets>
 <sheet>
@@ -35604,12 +35701,12 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="P+3" gate="VCC" x="30.48" y="104.14"/>
 <instance part="GND15" gate="1" x="30.48" y="81.28"/>
 <instance part="R9" gate="G$1" x="101.6" y="160.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="108.712" y="159.2326" size="1.778" layer="95"/>
-<attribute name="VALUE" x="113.03" y="159.258" size="1.778" layer="96"/>
+<attribute name="NAME" x="101.092" y="164.3126" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.33" y="161.798" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="101.6" y="157.48" smashed="yes" rot="R180">
-<attribute name="NAME" x="108.712" y="156.6926" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.808" y="156.972" size="1.778" layer="96"/>
+<attribute name="NAME" x="99.822" y="154.1526" size="1.778" layer="95"/>
+<attribute name="VALUE" x="99.568" y="151.892" size="1.778" layer="96"/>
 </instance>
 <instance part="P+8" gate="VCC" x="106.68" y="175.26"/>
 <instance part="C11" gate="G$1" x="203.2" y="68.58" smashed="yes">
@@ -35622,7 +35719,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="PR4" gate="G$1" x="223.52" y="175.26"/>
 <instance part="PR6" gate="G$1" x="223.52" y="170.18"/>
 <instance part="PR7" gate="G$1" x="223.52" y="167.64"/>
-<instance part="JP1" gate="G$1" x="246.38" y="119.38" rot="R270"/>
 <instance part="PR1" gate="G$1" x="223.52" y="182.88"/>
 <instance part="PR5" gate="G$1" x="223.52" y="172.72"/>
 <instance part="PR8" gate="G$1" x="223.52" y="165.1"/>
@@ -35630,41 +35726,39 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="PR10" gate="G$1" x="223.52" y="160.02"/>
 <instance part="PR11" gate="G$1" x="223.52" y="157.48"/>
 <instance part="PR12" gate="G$1" x="223.52" y="154.94"/>
-<instance part="U$1" gate="G$1" x="167.64" y="182.88" rot="R180"/>
-<instance part="U$2" gate="G$1" x="167.64" y="177.8" rot="R180"/>
-<instance part="P+6" gate="VCC" x="132.08" y="182.88" smashed="yes" rot="R90">
-<attribute name="VALUE" x="126.746" y="182.626" size="1.778" layer="96"/>
+<instance part="P+6" gate="VCC" x="111.76" y="182.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="106.426" y="182.626" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="139.7" y="165.1"/>
-<instance part="GND25" gate="1" x="139.7" y="152.4" smashed="yes">
-<attribute name="VALUE" x="137.16" y="149.86" size="1.778" layer="96"/>
+<instance part="Q1" gate="G$1" x="137.16" y="160.02"/>
+<instance part="GND25" gate="1" x="137.16" y="147.32" smashed="yes">
+<attribute name="VALUE" x="134.62" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="127" y="165.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="124.714" y="167.1066" size="1.778" layer="95"/>
-<attribute name="VALUE" x="124.206" y="161.544" size="1.778" layer="96"/>
+<instance part="R11" gate="G$1" x="124.46" y="160.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="122.174" y="162.0266" size="1.778" layer="95"/>
+<attribute name="VALUE" x="121.666" y="156.464" size="1.778" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="132.08" y="160.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="128.0414" y="153.67" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="130.556" y="153.67" size="1.778" layer="96" rot="R90"/>
+<instance part="R12" gate="G$1" x="129.54" y="154.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="125.5014" y="148.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="128.016" y="148.59" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND11" gate="1" x="132.08" y="152.4" smashed="yes">
-<attribute name="VALUE" x="129.54" y="149.86" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="129.54" y="147.32" smashed="yes">
+<attribute name="VALUE" x="127" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="114.3" y="12.7"/>
 <instance part="GND16" gate="1" x="210.82" y="45.72" smashed="yes">
 <attribute name="VALUE" x="208.28" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="PR13" gate="G$1" x="195.58" y="167.64" rot="R90"/>
+<instance part="PR13" gate="G$1" x="231.14" y="104.14" rot="R90"/>
 <instance part="B1" gate="G$1" x="241.3" y="48.26"/>
-<instance part="JP3" gate="G$1" x="116.84" y="172.72" smashed="yes">
-<attribute name="VALUE" x="113.284" y="167.894" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="114.3" y="178.562" size="1.778" layer="95"/>
+<instance part="JP3" gate="G$1" x="114.3" y="167.64" smashed="yes">
+<attribute name="VALUE" x="110.744" y="162.814" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="111.76" y="173.482" size="1.778" layer="95"/>
 </instance>
-<instance part="GND20" gate="1" x="127" y="175.26" smashed="yes" rot="R90">
-<attribute name="VALUE" x="129.54" y="172.72" size="1.778" layer="96" rot="R90"/>
+<instance part="GND20" gate="1" x="124.46" y="170.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="127" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND24" gate="1" x="190.5" y="154.94" smashed="yes">
-<attribute name="VALUE" x="187.96" y="152.4" size="1.778" layer="96"/>
+<instance part="GND24" gate="1" x="226.06" y="91.44" smashed="yes">
+<attribute name="VALUE" x="223.52" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="GND26" gate="1" x="76.2" y="40.64" smashed="yes">
 <attribute name="VALUE" x="73.66" y="38.1" size="1.778" layer="96"/>
@@ -35821,10 +35915,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="NAME" x="155.448" y="94.742" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="147.574" y="94.742" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SJ2" gate="G$1" x="167.64" y="142.24" rot="R90"/>
-<instance part="P+9" gate="1" x="172.72" y="144.78"/>
-<instance part="+3V1" gate="G$1" x="162.56" y="147.32"/>
-<instance part="+3V2" gate="G$1" x="71.12" y="33.02"/>
+<instance part="SJ2" gate="G$1" x="73.66" y="27.94" rot="R90"/>
+<instance part="P+9" gate="1" x="81.28" y="30.48"/>
 <instance part="PR14" gate="G$1" x="276.86" y="182.88"/>
 <instance part="PR15" gate="G$1" x="276.86" y="180.34"/>
 <instance part="PR16" gate="G$1" x="276.86" y="177.8"/>
@@ -35840,6 +35932,13 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND2" gate="1" x="121.92" y="111.76" smashed="yes">
 <attribute name="VALUE" x="119.38" y="109.22" size="1.778" layer="96"/>
 </instance>
+<instance part="SJ4" gate="1" x="17.78" y="30.48" smashed="yes">
+<attribute name="NAME" x="12.192" y="27.178" size="1.778" layer="95"/>
+<attribute name="VALUE" x="20.066" y="27.178" size="1.778" layer="96"/>
+</instance>
+<instance part="PR18" gate="G$1" x="154.94" y="177.8"/>
+<instance part="PR19" gate="G$1" x="154.94" y="182.88"/>
+<instance part="PR20" gate="G$1" x="243.84" y="114.3" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -35859,44 +35958,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="119.38" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="VCC"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="5"/>
-<pinref part="U$1" gate="G$1" pin="6"/>
-<pinref part="U$1" gate="G$1" pin="7"/>
-<pinref part="U$1" gate="G$1" pin="8"/>
-<pinref part="U$1" gate="G$1" pin="9"/>
-<pinref part="U$1" gate="G$1" pin="10"/>
-<pinref part="U$1" gate="G$1" pin="11"/>
-<pinref part="P+6" gate="VCC" pin="VCC"/>
-<pinref part="U$1" gate="G$1" pin="12"/>
-<wire x1="139.7" y1="182.88" x2="134.62" y2="182.88" width="0.1524" layer="91"/>
-<junction x="139.7" y="182.88"/>
-<wire x1="139.7" y1="182.88" x2="144.78" y2="182.88" width="0.1524" layer="91"/>
-<junction x="144.78" y="182.88"/>
-<wire x1="144.78" y1="182.88" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
-<junction x="149.86" y="182.88"/>
-<wire x1="149.86" y1="182.88" x2="154.94" y2="182.88" width="0.1524" layer="91"/>
-<junction x="154.94" y="182.88"/>
-<wire x1="154.94" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91"/>
-<junction x="160.02" y="182.88"/>
-<wire x1="160.02" y1="182.88" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
-<junction x="165.1" y="182.88"/>
-<wire x1="165.1" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
-<junction x="170.18" y="182.88"/>
-<wire x1="170.18" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="182.88" x2="195.58" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="190.5" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
-<junction x="190.5" y="182.88"/>
-<pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="185.42" y1="182.88" x2="180.34" y2="182.88" width="0.1524" layer="91"/>
-<junction x="185.42" y="182.88"/>
-<wire x1="180.34" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
-<junction x="180.34" y="182.88"/>
-<junction x="175.26" y="182.88"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
@@ -35937,7 +35998,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="SJ2" gate="G$1" pin="3"/>
-<wire x1="172.72" y1="142.24" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="27.94" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="1" pin="VCC"/>
 </segment>
 <segment>
@@ -35947,6 +36009,56 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="106.68" y1="160.02" x2="106.68" y2="172.72" width="0.1524" layer="91"/>
 <junction x="106.68" y="160.02"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<pinref part="PR19" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="182.88" x2="116.84" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="PR19" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="182.88" x2="121.92" y2="182.88" width="0.1524" layer="91"/>
+<junction x="116.84" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="3"/>
+<wire x1="121.92" y1="182.88" x2="127" y2="182.88" width="0.1524" layer="91"/>
+<junction x="121.92" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="4"/>
+<wire x1="127" y1="182.88" x2="132.08" y2="182.88" width="0.1524" layer="91"/>
+<junction x="127" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="5"/>
+<wire x1="132.08" y1="182.88" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
+<junction x="132.08" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="6"/>
+<wire x1="137.16" y1="182.88" x2="142.24" y2="182.88" width="0.1524" layer="91"/>
+<junction x="137.16" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="7"/>
+<wire x1="142.24" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
+<junction x="142.24" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="8"/>
+<wire x1="147.32" y1="182.88" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
+<junction x="147.32" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="9"/>
+<wire x1="152.4" y1="182.88" x2="157.48" y2="182.88" width="0.1524" layer="91"/>
+<junction x="152.4" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="10"/>
+<wire x1="157.48" y1="182.88" x2="162.56" y2="182.88" width="0.1524" layer="91"/>
+<junction x="157.48" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="11"/>
+<wire x1="162.56" y1="182.88" x2="167.64" y2="182.88" width="0.1524" layer="91"/>
+<junction x="162.56" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="12"/>
+<wire x1="167.64" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
+<junction x="167.64" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="13"/>
+<wire x1="172.72" y1="182.88" x2="177.8" y2="182.88" width="0.1524" layer="91"/>
+<junction x="172.72" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="14"/>
+<wire x1="177.8" y1="182.88" x2="182.88" y2="182.88" width="0.1524" layer="91"/>
+<junction x="177.8" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="15"/>
+<wire x1="182.88" y1="182.88" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
+<junction x="182.88" y="182.88"/>
+<pinref part="PR19" gate="G$1" pin="16"/>
+<wire x1="187.96" y1="182.88" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
+<junction x="187.96" y="182.88"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -35981,7 +36093,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="GND25" gate="1" pin="GND"/>
-<wire x1="139.7" y1="154.94" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="149.86" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -35996,18 +36108,18 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="172.72" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="109.22" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <pinref part="PR13" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="167.64" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="162.56" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="172.72" x2="195.58" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="104.14" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="99.06" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="109.22" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="PR13" gate="G$1" pin="3"/>
-<wire x1="195.58" y1="167.64" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
-<junction x="190.5" y="167.64"/>
+<wire x1="231.14" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
+<junction x="226.06" y="104.14"/>
 <pinref part="PR13" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="162.56" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
-<junction x="190.5" y="162.56"/>
+<wire x1="231.14" y1="99.06" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
+<junction x="226.06" y="99.06"/>
 </segment>
 <segment>
 <pinref part="GND26" gate="1" pin="GND"/>
@@ -36264,18 +36376,11 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="104.14" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="22.86" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="L3" gate="G$1" pin="1"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="15.24" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
-<junction x="22.86" y="22.86"/>
-<wire x1="22.86" y1="22.86" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
-<junction x="22.86" y="30.48"/>
-<wire x1="10.16" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
-<label x="15.24" y="27.94" size="1.778" layer="95"/>
+<pinref part="SJ4" gate="1" pin="1"/>
 <pinref part="B2" gate="G$1" pin="POS"/>
-<wire x1="10.16" y1="27.94" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="30.48" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="25.4" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -36324,9 +36429,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <junction x="114.3" y="5.08"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="8"/>
-<wire x1="246.38" y1="111.76" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="111.76" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
 <label x="236.22" y="111.76" size="1.778" layer="95"/>
+<pinref part="PR20" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="ADC6"/>
@@ -36347,11 +36452,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="U6" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
-<label x="236.22" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U5" gate="G$1" pin="SCL"/>
 <wire x1="50.8" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
 <label x="45.72" y="91.44" size="1.778" layer="95"/>
@@ -36362,17 +36462,17 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="88.9" y1="157.48" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
 <label x="91.44" y="157.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PR20" gate="G$1" pin="14"/>
+<wire x1="243.84" y1="147.32" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
+<label x="236.22" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <wire x1="236.22" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
 <label x="238.76" y="66.04" size="1.778" layer="95"/>
 <pinref part="U6" gate="G$1" pin="SDA"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="246.38" y1="137.16" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
-<label x="236.22" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="SDA"/>
@@ -36384,6 +36484,11 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="160.02" x2="96.52" y2="160.02" width="0.1524" layer="91"/>
 <label x="91.44" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PR20" gate="G$1" pin="13"/>
+<wire x1="243.84" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
+<label x="236.22" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -36398,9 +36503,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="91.44" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="9"/>
-<wire x1="246.38" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="106.68" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
 <label x="236.22" y="106.68" size="1.778" layer="95"/>
+<pinref part="PR20" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -36415,9 +36520,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="91.44" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="10"/>
-<wire x1="246.38" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
 <label x="236.22" y="101.6" size="1.778" layer="95"/>
+<pinref part="PR20" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -36432,9 +36537,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="91.44" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="11"/>
-<wire x1="246.38" y1="96.52" x2="236.22" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="96.52" x2="236.22" y2="96.52" width="0.1524" layer="91"/>
 <label x="236.22" y="96.52" size="1.778" layer="95"/>
+<pinref part="PR20" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="32KHZ" class="0">
@@ -36446,50 +36551,50 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="ADC3" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="246.38" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
-<label x="236.22" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="PC3(ADC3)"/>
 <wire x1="88.9" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
 <label x="91.44" y="162.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PR20" gate="G$1" pin="12"/>
+<wire x1="243.84" y1="137.16" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
+<label x="236.22" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ADC2" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="5"/>
-<wire x1="246.38" y1="127" x2="236.22" y2="127" width="0.1524" layer="91"/>
-<label x="236.22" y="127" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PC2(ADC2)"/>
 <wire x1="88.9" y1="165.1" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
 <label x="91.44" y="165.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PR20" gate="G$1" pin="11"/>
+<wire x1="243.84" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
+<label x="236.22" y="132.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ADC1" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
-<wire x1="246.38" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
-<label x="236.22" y="121.92" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="88.9" y1="167.64" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
 <label x="91.44" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PR20" gate="G$1" pin="10"/>
+<wire x1="243.84" y1="127" x2="236.22" y2="127" width="0.1524" layer="91"/>
+<label x="236.22" y="127" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ADC0" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="7"/>
-<wire x1="246.38" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
-<label x="236.22" y="116.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PC0(ADC0)"/>
 <wire x1="88.9" y1="170.18" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
 <label x="91.44" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PR20" gate="G$1" pin="9"/>
+<wire x1="243.84" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
+<label x="236.22" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -36689,50 +36794,61 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<junction x="132.08" y="165.1"/>
+<junction x="129.54" y="160.02"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SGND" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="12"/>
-<pinref part="U$2" gate="G$1" pin="11"/>
-<wire x1="139.7" y1="177.8" x2="144.78" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="10"/>
-<wire x1="144.78" y1="177.8" x2="149.86" y2="177.8" width="0.1524" layer="91"/>
-<junction x="144.78" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="9"/>
-<wire x1="149.86" y1="177.8" x2="154.94" y2="177.8" width="0.1524" layer="91"/>
-<junction x="149.86" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="8"/>
-<wire x1="154.94" y1="177.8" x2="160.02" y2="177.8" width="0.1524" layer="91"/>
-<junction x="154.94" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="7"/>
-<wire x1="160.02" y1="177.8" x2="165.1" y2="177.8" width="0.1524" layer="91"/>
-<junction x="160.02" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="6"/>
-<wire x1="165.1" y1="177.8" x2="170.18" y2="177.8" width="0.1524" layer="91"/>
-<junction x="165.1" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="5"/>
-<wire x1="170.18" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
-<junction x="170.18" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="177.8" x2="180.34" y2="177.8" width="0.1524" layer="91"/>
-<junction x="175.26" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="3"/>
-<wire x1="180.34" y1="177.8" x2="185.42" y2="177.8" width="0.1524" layer="91"/>
-<junction x="180.34" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="177.8" x2="190.5" y2="177.8" width="0.1524" layer="91"/>
-<junction x="185.42" y="177.8"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
-<junction x="190.5" y="177.8"/>
-<label x="133.35" y="173.482" size="1.778" layer="95"/>
+<label x="130.81" y="168.402" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="172.72" x2="139.7" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="172.72" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
-<junction x="139.7" y="177.8"/>
+<wire x1="121.92" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="PR18" gate="G$1" pin="1"/>
+<pinref part="PR18" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="PR18" gate="G$1" pin="3"/>
+<wire x1="121.92" y1="177.8" x2="127" y2="177.8" width="0.1524" layer="91"/>
+<junction x="121.92" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="4"/>
+<wire x1="127" y1="177.8" x2="132.08" y2="177.8" width="0.1524" layer="91"/>
+<junction x="127" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="5"/>
+<wire x1="132.08" y1="177.8" x2="137.16" y2="177.8" width="0.1524" layer="91"/>
+<junction x="132.08" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="6"/>
+<wire x1="137.16" y1="177.8" x2="142.24" y2="177.8" width="0.1524" layer="91"/>
+<junction x="137.16" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="7"/>
+<wire x1="142.24" y1="177.8" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
+<junction x="142.24" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="8"/>
+<wire x1="147.32" y1="177.8" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
+<junction x="147.32" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="9"/>
+<wire x1="152.4" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
+<junction x="152.4" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="10"/>
+<wire x1="157.48" y1="177.8" x2="162.56" y2="177.8" width="0.1524" layer="91"/>
+<junction x="157.48" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="11"/>
+<wire x1="162.56" y1="177.8" x2="167.64" y2="177.8" width="0.1524" layer="91"/>
+<junction x="162.56" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="12"/>
+<wire x1="167.64" y1="177.8" x2="172.72" y2="177.8" width="0.1524" layer="91"/>
+<junction x="167.64" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="13"/>
+<wire x1="172.72" y1="177.8" x2="177.8" y2="177.8" width="0.1524" layer="91"/>
+<junction x="172.72" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="14"/>
+<wire x1="177.8" y1="177.8" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
+<junction x="177.8" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="15"/>
+<wire x1="182.88" y1="177.8" x2="187.96" y2="177.8" width="0.1524" layer="91"/>
+<junction x="182.88" y="177.8"/>
+<pinref part="PR18" gate="G$1" pin="16"/>
+<wire x1="187.96" y1="177.8" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
+<junction x="187.96" y="177.8"/>
+<wire x1="137.16" y1="167.64" x2="137.16" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="/SS" class="0">
@@ -36742,9 +36858,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="91.44" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="12"/>
-<wire x1="246.38" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
 <label x="236.22" y="91.44" size="1.778" layer="95"/>
+<pinref part="PR20" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -36762,18 +36878,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="U4" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="88.9" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
 <label x="91.44" y="137.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LED1" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="132.08" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
-<label x="106.68" y="132.08" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="PD7(AIN1)"/>
-<wire x1="88.9" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
-<label x="91.44" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INT" class="0">
@@ -36912,8 +37016,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="SPWR" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="165.1" x2="114.3" y2="165.1" width="0.1524" layer="91"/>
-<label x="114.3" y="162.56" size="1.778" layer="95"/>
+<wire x1="119.38" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
+<label x="111.76" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PB1(OC1A)"/>
@@ -37021,7 +37125,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="124.46" y1="170.18" x2="139.7" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="165.1" x2="137.16" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -37121,45 +37225,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <junction x="55.88" y="43.18"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="SJ2" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="142.24" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="VOUT"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="25.4" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
-<junction x="58.42" y="27.94"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="20.32" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
-<junction x="66.04" y="27.94"/>
-<wire x1="71.12" y1="27.94" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="A1" gate="G$1" pin="+3V3"/>
-<pinref part="SJ2" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="121.92" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="132.08" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
-<junction x="167.64" y="137.16"/>
-<wire x1="147.32" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<junction x="147.32" y="137.16"/>
-<junction x="154.94" y="137.16"/>
-</segment>
-</net>
 <net name="CTS" class="0">
 <segment>
 <pinref part="A1" gate="G$1" pin="CTS/DIO7"/>
@@ -37208,24 +37273,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="180.34" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="SW1" class="0">
-<segment>
-<pinref part="SW1" gate="G$1" pin="P$1"/>
-<wire x1="121.92" y1="124.46" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
-<label x="121.92" y="132.08" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="PB0(ICP)"/>
-<wire x1="88.9" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
-<label x="91.44" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="AREF" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="147.32" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
-<label x="236.22" y="147.32" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="AREF"/>
 <pinref part="C13" gate="G$1" pin="1"/>
@@ -37233,12 +37281,219 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="17.78" y1="162.56" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="17.78" y="162.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PR20" gate="G$1" pin="8"/>
+<wire x1="243.84" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
+<label x="236.22" y="116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="VBAT"/>
 <pinref part="B1" gate="G$1" pin="POS1"/>
 <wire x1="236.22" y1="55.88" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VOUT"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="25.4" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
+<junction x="58.42" y="27.94"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="20.32" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
+<junction x="66.04" y="27.94"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="XBEE_SUPPLY" class="0">
+<segment>
+<pinref part="SJ2" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
+<label x="73.66" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="132.08" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<junction x="147.32" y="137.16"/>
+<pinref part="A1" gate="G$1" pin="+3V3"/>
+<wire x1="167.64" y1="121.92" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<junction x="154.94" y="137.16"/>
+<label x="157.48" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="22.86" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="1"/>
+<pinref part="SJ4" gate="1" pin="2"/>
+<wire x1="22.86" y1="22.86" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<junction x="22.86" y="22.86"/>
+<junction x="22.86" y="30.48"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="PR14" gate="G$1" pin="1"/>
+<pinref part="PR14" gate="G$1" pin="2"/>
+<wire x1="254" y1="182.88" x2="259.08" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="PR14" gate="G$1" pin="3"/>
+<wire x1="259.08" y1="182.88" x2="264.16" y2="182.88" width="0.1524" layer="91"/>
+<junction x="259.08" y="182.88"/>
+<pinref part="PR14" gate="G$1" pin="4"/>
+<wire x1="264.16" y1="182.88" x2="269.24" y2="182.88" width="0.1524" layer="91"/>
+<junction x="264.16" y="182.88"/>
+<pinref part="PR14" gate="G$1" pin="5"/>
+<wire x1="269.24" y1="182.88" x2="274.32" y2="182.88" width="0.1524" layer="91"/>
+<junction x="269.24" y="182.88"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="PR14" gate="G$1" pin="6"/>
+<pinref part="PR14" gate="G$1" pin="7"/>
+<wire x1="279.4" y1="182.88" x2="284.48" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="PR14" gate="G$1" pin="8"/>
+<wire x1="284.48" y1="182.88" x2="289.56" y2="182.88" width="0.1524" layer="91"/>
+<junction x="284.48" y="182.88"/>
+<pinref part="PR14" gate="G$1" pin="9"/>
+<wire x1="289.56" y1="182.88" x2="294.64" y2="182.88" width="0.1524" layer="91"/>
+<junction x="289.56" y="182.88"/>
+<pinref part="PR14" gate="G$1" pin="10"/>
+<wire x1="294.64" y1="182.88" x2="299.72" y2="182.88" width="0.1524" layer="91"/>
+<junction x="294.64" y="182.88"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="PR15" gate="G$1" pin="1"/>
+<pinref part="PR15" gate="G$1" pin="2"/>
+<wire x1="254" y1="180.34" x2="259.08" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="PR15" gate="G$1" pin="3"/>
+<wire x1="259.08" y1="180.34" x2="264.16" y2="180.34" width="0.1524" layer="91"/>
+<junction x="259.08" y="180.34"/>
+<pinref part="PR15" gate="G$1" pin="4"/>
+<wire x1="264.16" y1="180.34" x2="269.24" y2="180.34" width="0.1524" layer="91"/>
+<junction x="264.16" y="180.34"/>
+<pinref part="PR15" gate="G$1" pin="5"/>
+<wire x1="269.24" y1="180.34" x2="274.32" y2="180.34" width="0.1524" layer="91"/>
+<junction x="269.24" y="180.34"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="PR15" gate="G$1" pin="6"/>
+<pinref part="PR15" gate="G$1" pin="7"/>
+<wire x1="279.4" y1="180.34" x2="284.48" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="PR15" gate="G$1" pin="8"/>
+<wire x1="284.48" y1="180.34" x2="289.56" y2="180.34" width="0.1524" layer="91"/>
+<junction x="284.48" y="180.34"/>
+<pinref part="PR15" gate="G$1" pin="9"/>
+<wire x1="289.56" y1="180.34" x2="294.64" y2="180.34" width="0.1524" layer="91"/>
+<junction x="289.56" y="180.34"/>
+<pinref part="PR15" gate="G$1" pin="10"/>
+<wire x1="294.64" y1="180.34" x2="299.72" y2="180.34" width="0.1524" layer="91"/>
+<junction x="294.64" y="180.34"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="PR16" gate="G$1" pin="1"/>
+<pinref part="PR16" gate="G$1" pin="2"/>
+<wire x1="254" y1="177.8" x2="259.08" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="PR16" gate="G$1" pin="3"/>
+<wire x1="259.08" y1="177.8" x2="264.16" y2="177.8" width="0.1524" layer="91"/>
+<junction x="259.08" y="177.8"/>
+<pinref part="PR16" gate="G$1" pin="4"/>
+<wire x1="264.16" y1="177.8" x2="269.24" y2="177.8" width="0.1524" layer="91"/>
+<junction x="264.16" y="177.8"/>
+<pinref part="PR16" gate="G$1" pin="5"/>
+<wire x1="269.24" y1="177.8" x2="274.32" y2="177.8" width="0.1524" layer="91"/>
+<junction x="269.24" y="177.8"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="PR16" gate="G$1" pin="6"/>
+<pinref part="PR16" gate="G$1" pin="7"/>
+<wire x1="279.4" y1="177.8" x2="284.48" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="PR16" gate="G$1" pin="8"/>
+<wire x1="284.48" y1="177.8" x2="289.56" y2="177.8" width="0.1524" layer="91"/>
+<junction x="284.48" y="177.8"/>
+<pinref part="PR16" gate="G$1" pin="9"/>
+<wire x1="289.56" y1="177.8" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
+<junction x="289.56" y="177.8"/>
+<pinref part="PR16" gate="G$1" pin="10"/>
+<wire x1="294.64" y1="177.8" x2="299.72" y2="177.8" width="0.1524" layer="91"/>
+<junction x="294.64" y="177.8"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="PR17" gate="G$1" pin="1"/>
+<pinref part="PR17" gate="G$1" pin="2"/>
+<wire x1="254" y1="175.26" x2="259.08" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="PR17" gate="G$1" pin="3"/>
+<wire x1="259.08" y1="175.26" x2="264.16" y2="175.26" width="0.1524" layer="91"/>
+<junction x="259.08" y="175.26"/>
+<pinref part="PR17" gate="G$1" pin="4"/>
+<wire x1="264.16" y1="175.26" x2="269.24" y2="175.26" width="0.1524" layer="91"/>
+<junction x="264.16" y="175.26"/>
+<pinref part="PR17" gate="G$1" pin="5"/>
+<wire x1="269.24" y1="175.26" x2="274.32" y2="175.26" width="0.1524" layer="91"/>
+<junction x="269.24" y="175.26"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="PR17" gate="G$1" pin="8"/>
+<pinref part="PR17" gate="G$1" pin="7"/>
+<wire x1="284.48" y1="175.26" x2="289.56" y2="175.26" width="0.1524" layer="91"/>
+<junction x="284.48" y="175.26"/>
+<pinref part="PR17" gate="G$1" pin="6"/>
+<wire x1="279.4" y1="175.26" x2="284.48" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="PR17" gate="G$1" pin="9"/>
+<wire x1="289.56" y1="175.26" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
+<junction x="289.56" y="175.26"/>
+<pinref part="PR17" gate="G$1" pin="10"/>
+<wire x1="294.64" y1="175.26" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
+<junction x="294.64" y="175.26"/>
+</segment>
+</net>
+<net name="PB0" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="88.9" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
+<label x="91.44" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="132.08" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
+<label x="109.22" y="132.08" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="PD7" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="P$1"/>
+<wire x1="121.92" y1="124.46" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+<label x="124.46" y="132.08" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="PD7(AIN1)"/>
+<wire x1="88.9" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<label x="91.44" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
