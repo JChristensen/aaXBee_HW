@@ -1,0 +1,90 @@
+Partlist
+
+Exported from aaXBee.sch at 2/28/2015 11:14:39 AM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device                   Package                Library  Sheet
+
+A1       XB24-Z7WIT-004 ULINK_XBEEOVALPADS       XBEE_OVAL_PADS         _jc      1
+B1       CR2016         COIN-CELL-2016-SMT       BAT-HLD-002-SMT        _jc      1
+B2       2xAA           BATTERY-2AANOHOLES       KEYSTONE-2462-NO-HOLES _jc      1
+C1       10uF           C-USM0805                M0805                  _jc      1
+C2       10uF           C-USM0805                M0805                  _jc      1
+C3       10uF           C-USM0805                M0805                  _jc      1
+C4       100nF          C-USM0805                M0805                  _jc      1
+C5       100nF          C-USM0805                M0805                  _jc      1
+C6       10uF           C-USM0805                M0805                  _jc      1
+C7       10uF           C-USM0805                M0805                  _jc      1
+C8       100nF          C-USM0805                M0805                  _jc      1
+C9       100nF          C-USM0805                M0805                  _jc      1
+C11      100nF          C-USM0805                M0805                  _jc      1
+C12      100nF          C-USM0805                M0805                  _jc      1
+C13      100nF          C-USM0805                M0805                  _jc      1
+C14      27pF           C-USM0805                M0805                  _jc      1
+C15      100nF          C-USM0805                M0805                  _jc      1
+C16      27pF           C-USM0805                M0805                  _jc      1
+D1       Yellow         LEDD0805A                D0805A                 _jc      1
+D3       1N4148         DIODESOD-323F            SOD-323F               _jc      1
+D4       1N4148         DIODESOD-323F            SOD-323F               _jc      1
+D7       Red            LEDD0805A                D0805A                 _jc      1
+D8       Green          LEDD0805                 D0805                  _jc      1
+JP2      FTDI           M06LOCK                  1X06_LOCK              SparkFun 1
+JP3      GNDSEL         M03LOCK                  1X03_LOCK              SparkFun 1
+JP5      Run/Pgm        M03LOCK                  1X03_LOCK              SparkFun 1
+JP6      ICSP           AVR_SPI_PRG_62X3_LOCK    2X3_LOCK               _jc      1
+L1       4.7uH          INDUCTORNRS4018          NRS4018                _jc      1
+L2       10uH           INDUCTORM0805            M0805                  _jc      1
+L3       4.7uH          INDUCTORNRS4018          NRS4018                _jc      1
+PR1      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR2      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR3      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR4      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR5      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR6      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR7      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR8      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR9      PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR10     PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR11     PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR12     PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR13                    PROTO-3                  PROTO-3                _jc      1
+PR14     PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR15     PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR16     PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR17     PROTO-10       PROTO-10                 PROTO-10               _jc      1
+PR18     Proto ground   PROTO-16                 PROTO-16               _jc      1
+PR19     Proto Vcc      PROTO-16                 PROTO-16               _jc      1
+PR20     Signals        PROTO-14NR               PROTO-14-NR            _jc      1
+Q1       IRLML6244TR    MOSFET-NCHANNELSOT23     SOT23                  _jc      1
+R1       976K           R-US_M0805               M0805                  _jc      1
+R2       309K           R-US_M0805               M0805                  _jc      1
+R3       976K           R-US_M0805               M0805                  _jc      1
+R4       47.5K          R-US_M0805               M0805                  _jc      1
+R5       10K            R-US_M0805               M0805                  _jc      1
+R6       10K            R-US_M0805               M0805                  _jc      1
+R7       1K             R-US_M0805               M0805                  _jc      1
+R9       2.2K           R-US_M0805               M0805                  _jc      1
+R10      2.2K           R-US_M0805               M0805                  _jc      1
+R11      220            R-US_M0805               M0805                  _jc      1
+R12      10K            R-US_M0805               M0805                  _jc      1
+R13      4.7K           R-US_M0805               M0805                  _jc      1
+R14      1K             R-US_M0805               M0805                  _jc      1
+R15      1K             R-US_M0805               M0805                  _jc      1
+R16      562K           R-US_M0805               M0805                  _jc      1
+R17      249K           R-US_M0805               M0805                  _jc      1
+SJ1      5V             SJ                       SJ                     jumper   1
+SJ2      XBee VR Sel    SJ2W                     SJ_2                   jumper   1
+SJ3      /5V            SJ                       SJ                     jumper   1
+SJ4      5V             SJ                       SJ                     jumper   1
+SW1      SW1            SPST-NO-MCTACT-6X3.5-SMT SWITCH-TACT-6X3.5-SMT  _jc      1
+SW2      RESET          SPST-NO-MCTACT-6X3.5-SMT SWITCH-TACT-6X3.5-SMT  _jc      1
+TB1      +BAT-          OST-TB-23.5MM            OST-TB-2-3.5MM         _jc      1
+U1       MCP1640D       MCP1640                  SOT23-6                _jc      1
+U2       MCP1640D       MCP1640                  SOT23-6                _jc      1
+U4       ATmega328P-AU  MEGA8-AI                 TQFP32-08              atmel    1
+U5       MCP9808        MCP9808                  MSOP8                  _jc      1
+U6       DS3231         DS3231                   SO-16DW                _jc      1
+Y1       8MHz           CRYSTALABM2              CRYSTAL-ABRACON-ABM2   _jc      1
