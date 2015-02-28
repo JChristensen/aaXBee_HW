@@ -1,6 +1,6 @@
 Partlist
 
-Exported from aaXBee.sch at 2/28/2015 11:14:39 AM
+Exported from aaXBee.sch at 2/28/2015 11:21:16 AM
 
 EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
 
@@ -20,17 +20,17 @@ C6       10uF           C-USM0805                M0805                  _jc     
 C7       10uF           C-USM0805                M0805                  _jc      1
 C8       100nF          C-USM0805                M0805                  _jc      1
 C9       100nF          C-USM0805                M0805                  _jc      1
+C10      100nF          C-USM0805                M0805                  _jc      1
 C11      100nF          C-USM0805                M0805                  _jc      1
 C12      100nF          C-USM0805                M0805                  _jc      1
 C13      100nF          C-USM0805                M0805                  _jc      1
 C14      27pF           C-USM0805                M0805                  _jc      1
-C15      100nF          C-USM0805                M0805                  _jc      1
-C16      27pF           C-USM0805                M0805                  _jc      1
+C15      27pF           C-USM0805                M0805                  _jc      1
 D1       Yellow         LEDD0805A                D0805A                 _jc      1
+D2       1N4148         DIODESOD-323F            SOD-323F               _jc      1
 D3       1N4148         DIODESOD-323F            SOD-323F               _jc      1
-D4       1N4148         DIODESOD-323F            SOD-323F               _jc      1
-D7       Red            LEDD0805A                D0805A                 _jc      1
-D8       Green          LEDD0805                 D0805                  _jc      1
+D4       Green          LEDD0805                 D0805                  _jc      1
+D5       Red            LEDD0805A                D0805A                 _jc      1
 JP2      FTDI           M06LOCK                  1X06_LOCK              SparkFun 1
 JP3      GNDSEL         M03LOCK                  1X03_LOCK              SparkFun 1
 JP5      Run/Pgm        M03LOCK                  1X03_LOCK              SparkFun 1
