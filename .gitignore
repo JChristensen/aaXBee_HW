@@ -24,8 +24,9 @@
 #Other files
 *.zip
 *.png
-*.xls
-*.xlsx
+#*.xls
+#*.xlsx
+*.txt
 Thumbs.db
 !board.png
 !schematic.png
