@@ -4964,14 +4964,14 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
 <wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
 <circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
-<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1" stop="no"/>
-<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1" stop="no"/>
-<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1" stop="no"/>
-<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1" stop="no"/>
-<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1" stop="no"/>
-<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1" stop="no"/>
-<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1" stop="no"/>
-<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1" stop="no"/>
+<smd name="1" x="-0.975" y="-2.3" dx="0.45" dy="1.35" layer="1" stop="no"/>
+<smd name="2" x="-0.325" y="-2.3" dx="0.45" dy="1.35" layer="1" stop="no"/>
+<smd name="3" x="0.325" y="-2.3" dx="0.45" dy="1.35" layer="1" stop="no"/>
+<smd name="4" x="0.975" y="-2.3" dx="0.45" dy="1.35" layer="1" stop="no"/>
+<smd name="5" x="0.975" y="2.3" dx="0.45" dy="1.35" layer="1" stop="no"/>
+<smd name="6" x="0.325" y="2.3" dx="0.45" dy="1.35" layer="1" stop="no"/>
+<smd name="7" x="-0.325" y="2.3" dx="0.45" dy="1.35" layer="1" stop="no"/>
+<smd name="8" x="-0.975" y="2.3" dx="0.45" dy="1.35" layer="1" stop="no"/>
 <text x="-1.905" y="-1.905" size="0.8128" layer="25" ratio="16" rot="R90">&gt;NAME</text>
 <text x="2.54" y="-1.905" size="0.8128" layer="27" ratio="16" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
@@ -4982,14 +4982,14 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="0.1751" y1="1.5" x2="0.4751" y2="2.45" layer="51"/>
 <rectangle x1="-0.4751" y1="1.5" x2="-0.1751" y2="2.45" layer="51"/>
 <rectangle x1="-1.1253" y1="1.5" x2="-0.8253" y2="2.45" layer="51"/>
-<rectangle x1="-1.225" y1="-2.6" x2="-0.725" y2="-1.525" layer="29"/>
-<rectangle x1="-0.575" y1="-2.6" x2="-0.075" y2="-1.525" layer="29"/>
-<rectangle x1="0.075" y1="-2.6" x2="0.575" y2="-1.525" layer="29"/>
-<rectangle x1="0.725" y1="-2.6" x2="1.225" y2="-1.525" layer="29"/>
-<rectangle x1="0.725" y1="1.525" x2="1.225" y2="2.6" layer="29" rot="R180"/>
-<rectangle x1="0.075" y1="1.525" x2="0.575" y2="2.6" layer="29" rot="R180"/>
-<rectangle x1="-0.575" y1="1.525" x2="-0.075" y2="2.6" layer="29" rot="R180"/>
-<rectangle x1="-1.225" y1="1.525" x2="-0.725" y2="2.6" layer="29" rot="R180"/>
+<rectangle x1="-1.225" y1="1.6" x2="-0.725" y2="3" layer="29"/>
+<rectangle x1="-0.575" y1="1.6" x2="-0.075" y2="3" layer="29"/>
+<rectangle x1="0.075" y1="1.6" x2="0.575" y2="3" layer="29"/>
+<rectangle x1="0.725" y1="1.6" x2="1.225" y2="3" layer="29"/>
+<rectangle x1="-1.225" y1="-3" x2="-0.725" y2="-1.6" layer="29"/>
+<rectangle x1="-0.575" y1="-3" x2="-0.075" y2="-1.6" layer="29"/>
+<rectangle x1="0.075" y1="-3" x2="0.575" y2="-1.6" layer="29"/>
+<rectangle x1="0.725" y1="-3" x2="1.225" y2="-1.6" layer="29"/>
 </package>
 <package name="SO-16DW">
 <description>&lt;b&gt;Small Outline Integrated Circuit&lt;/b&gt; wide</description>
@@ -35396,7 +35396,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
 <rectangle x1="-2.2098" y1="-0.9144" x2="2.2098" y2="0.9144" layer="29"/>
-<text x="-2.54" y="-2.54" size="1.016" layer="21" ratio="16">&gt;VALUE</text>
+<text x="-2.54" y="-2.54" size="1.016" layer="27" ratio="16">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -35538,7 +35538,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="PR11" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR12" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
-<part name="Q1" library="_jc" deviceset="MOSFET-NCHANNEL" device="SOT23" value="IRLML6244TR"/>
+<part name="Q1" library="_jc" deviceset="MOSFET-NCHANNEL" device="SOT23" value="Si2302CDS"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="_jc" deviceset="R-US_" device="M0805" value="220"/>
 <part name="R8" library="_jc" deviceset="R-US_" device="M0805" value="10K"/>

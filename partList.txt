@@ -1,6 +1,6 @@
 Partlist
 
-Exported from aaXBee.sch at 3/20/2015 9:22:14 AM
+Exported from aaXBee.sch at 4/15/2015 4:40:04 PM
 
 EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
 
@@ -27,7 +27,7 @@ C13      100nF          C-USM0805                M0805                  _jc     
 C14      10uF           C-USM0805                M0805                  _jc      1
 C15      100nF          C-USM0805                M0805                  _jc      1
 D1       1N4148         DIODESOD-323F-A          SOD-323F-A             _jc      1
-D2       1N4148         DIODESOD-323F            SOD-323F               _jc      1
+D2       1N4148         DIODESOD-323F-A          SOD-323F-A             _jc      1
 D3       Red            LEDD0805A                D0805A                 _jc      1
 D4       Green          LEDD0805                 D0805                  _jc      1
 D8       Yellow         LEDD0805A                D0805A                 _jc      1
@@ -50,7 +50,7 @@ PR9      PROTO-10       PROTO-10                 PROTO-10               _jc     
 PR10     PROTO-10       PROTO-10                 PROTO-10               _jc      1
 PR11     PROTO-10       PROTO-10                 PROTO-10               _jc      1
 PR12     PROTO-10       PROTO-10                 PROTO-10               _jc      1
-PR13                    PROTO-3                  PROTO-3                _jc      1
+PR13     GND            PROTO-3                  PROTO-3                _jc      1
 PR14     PROTO-10       PROTO-10                 PROTO-10               _jc      1
 PR15     PROTO-10       PROTO-10                 PROTO-10               _jc      1
 PR16     PROTO-10       PROTO-10                 PROTO-10               _jc      1
@@ -76,7 +76,7 @@ R14      4.7K           R-US_M0805               M0805                  _jc     
 R15      1K             R-US_M0805               M0805                  _jc      1
 R16      1K             R-US_M0805               M0805                  _jc      1
 SJ1      5V             SJ                       SJ                     jumper   1
-SJ2      Reg2 I/P       SJ                       SJ                     jumper   1
+SJ2      Reg2 IP        SJ                       SJ                     jumper   1
 SJ3      XBee VR Sel    SJ2W                     SJ_2                   jumper   1
 SJ4      3.3V           SJ                       SJ                     jumper   1
 SW1      RESET          SPST-NO-MCTACT-6X3.5-SMT SWITCH-TACT-6X3.5-SMT  _jc      1
