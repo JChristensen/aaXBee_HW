@@ -4511,7 +4511,7 @@ design rules under a new name.</description>
 <element name="PR10" library="_jc" package="PROTO-10" value="PROTO-10" x="82.55" y="44.45" smashed="yes"/>
 <element name="PR11" library="_jc" package="PROTO-10" value="PROTO-10" x="82.55" y="34.29" smashed="yes"/>
 <element name="PR12" library="_jc" package="PROTO-10" value="PROTO-10" x="82.55" y="46.99" smashed="yes"/>
-<element name="Q1" library="_jc" package="SOT23" value="Si2302CDS" x="80.01" y="5.842" smashed="yes">
+<element name="Q1" library="_jc" package="SOT23" value="IRLML6344TRPBF" x="80.01" y="5.842" smashed="yes">
 <attribute name="NAME" x="79.375" y="8.001" size="0.8128" layer="25" ratio="16"/>
 <attribute name="VALUE" x="78.105" y="2.667" size="0.8128" layer="27" ratio="16"/>
 </element>

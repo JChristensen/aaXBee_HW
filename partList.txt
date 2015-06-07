@@ -1,6 +1,6 @@
 Partlist
 
-Exported from aaXBee.sch at 4/15/2015 4:40:04 PM
+Exported from aaXBee.sch at 6/6/2015 8:04:41 PM
 
 EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
 
@@ -58,7 +58,7 @@ PR17     PROTO-10       PROTO-10                 PROTO-10               _jc     
 PR18     Proto ground   PROTO-16                 PROTO-16               _jc      1
 PR19     Proto Vcc      PROTO-16                 PROTO-16               _jc      1
 PR20     Signals        PROTO-14NR               PROTO-14-NR            _jc      1
-Q1       IRLML6244TR    MOSFET-NCHANNELSOT23     SOT23                  _jc      1
+Q1       IRLML6344TRPBF MOSFET-NCHANNELSOT23     SOT23                  _jc      1
 R1       10K            R-US_M0805               M0805                  _jc      1
 R2       47.5K          R-US_M0805               M0805                  _jc      1
 R3       10K            R-US_M0805               M0805                  _jc      1

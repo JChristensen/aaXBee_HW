@@ -35538,7 +35538,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="PR11" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="PR12" library="_jc" deviceset="PROTO-10" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
-<part name="Q1" library="_jc" deviceset="MOSFET-NCHANNEL" device="SOT23" value="Si2302CDS"/>
+<part name="Q1" library="_jc" deviceset="MOSFET-NCHANNEL" device="SOT23" value="IRLML6344TRPBF"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="_jc" deviceset="R-US_" device="M0805" value="220"/>
 <part name="R8" library="_jc" deviceset="R-US_" device="M0805" value="10K"/>
